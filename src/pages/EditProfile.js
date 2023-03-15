@@ -7,7 +7,7 @@ const EditProfile = () => {
   const navigate = useNavigate();
 
   const onBUTTONClick = useCallback(() => {
-    navigate("/user-profile");
+    navigate("/recent-notes");
   }, [navigate]);
 
   const onIconlyBoldArrowLeftClick = useCallback(() => {
