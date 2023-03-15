@@ -1,0 +1,50 @@
+.userChild {
+  position: relative;
+  width: 10rem;
+  height: 10rem;
+  flex-shrink: 0;
+  opacity: 0.5;
+}
+.shambhaviMishra {
+  position: absolute;
+  top: 11.25rem;
+  left: 0;
+  font-weight: 900;
+}
+.lucknowIndia {
+  position: absolute;
+  top: 13.63rem;
+  left: 4.56rem;
+  font-size: var(--font-size-base);
+  color: var(--color-dimgray-200);
+}
+.maskGroup1 {
+  position: absolute;
+  top: 0;
+  left: 2.81rem;
+  width: 10rem;
+  height: 10rem;
+  object-fit: cover;
+}
+.shambhaviMishraParent {
+  position: relative;
+  width: 15.56rem;
+  height: 15rem;
+  flex-shrink: 0;
+  margin-top: -10rem;
+}
+.user {
+  position: absolute;
+  top: 9.38rem;
+  left: 5.75rem;
+  width: 15.56rem;
+  height: 15rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: center;
+  font-size: var(--font-size-9xl);
+  color: var(--color-darkslategray-100);
+  font-family: var(--font-nunito);
+}

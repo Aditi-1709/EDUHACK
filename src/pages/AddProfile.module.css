@@ -1,0 +1,254 @@
+.addProfileChild {
+  position: absolute;
+  top: 51.08rem;
+  left: 0;
+  width: 24.38rem;
+  height: 1.67rem;
+}
+.vectorIcon {
+  position: absolute;
+  height: 0.59%;
+  width: 38.21%;
+  top: 98.46%;
+  right: 31.03%;
+  bottom: 0.95%;
+  left: 30.77%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.capacity {
+  position: relative;
+  border-radius: 1.55px;
+  background-color: var(--label-light-primary);
+  width: 1.08rem;
+  height: 0.71rem;
+  flex-shrink: 0;
+}
+.battery,
+.capIcon {
+  mix-blend-mode: normal;
+}
+.capIcon {
+  position: relative;
+  width: 0.08rem;
+  height: 0.39rem;
+  flex-shrink: 0;
+  opacity: 0.4;
+}
+.battery {
+  position: absolute;
+  height: 53.97%;
+  width: 6.29%;
+  top: 27.11%;
+  right: 0.67%;
+  bottom: 18.92%;
+  left: 93.04%;
+  border-radius: 3.09px;
+  border: 1.2px solid var(--color-gray-300);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-0) 0.26rem var(--padding-10xs) 0.12rem;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-11xs);
+}
+.wifiIcon {
+  position: relative;
+  width: 1.02rem;
+  height: 1.06rem;
+}
+.cellularConnectionIcon {
+  position: relative;
+  width: 1.13rem;
+  height: 1.03rem;
+}
+.time {
+  position: relative;
+  letter-spacing: -0.28px;
+  line-height: 1.45rem;
+  display: inline-block;
+  width: 3.58rem;
+}
+.header,
+.timeStyle {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.timeStyle {
+  height: 100%;
+  width: 15.44%;
+  right: 84.56%;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  padding: 0.2rem var(--padding-0);
+  box-sizing: border-box;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+.header {
+  width: 23.19rem;
+  height: 2.02rem;
+  text-align: center;
+  font-size: 1.09rem;
+  color: var(--label-light-primary);
+  font-family: var(--font-nunito);
+}
+.enterHere {
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.25px;
+  line-height: 1.13rem;
+}
+.cancelIcon {
+  position: relative;
+  width: 1rem;
+  height: 1rem;
+  flex-shrink: 0;
+  overflow: hidden;
+  display: none;
+}
+.bigOutlineChild,
+.value {
+  position: absolute;
+  width: 100%;
+  right: 0;
+  left: 0;
+  box-sizing: border-box;
+}
+.value {
+  top: 1.5rem;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-0) var(--padding-base);
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-5xs);
+}
+.bigOutlineChild {
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  border-radius: var(--br-5xs);
+  background-color: var(--color-gray-100);
+  border: 1px solid var(--dark-gray-4);
+}
+.labelChild {
+  position: relative;
+  background-color: var(--color-white);
+  width: 5.13rem;
+  height: 0.94rem;
+  flex-shrink: 0;
+  display: none;
+}
+.label1 {
+  position: relative;
+  letter-spacing: 0.25px;
+  line-height: 1rem;
+}
+.label,
+.labelWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.labelWrapper {
+  flex-direction: row;
+  padding: var(--padding-7xs) var(--padding-9xs) var(--padding-12xs);
+}
+.label {
+  position: absolute;
+  top: 0;
+  left: 0.75rem;
+  flex-direction: column;
+  gap: var(--gap-3xs);
+  font-size: var(--font-size-smi);
+  color: var(--label-light-primary);
+}
+.bigOutline,
+.bigOutline1 {
+  position: absolute;
+  width: 21.38rem;
+  height: 3.13rem;
+}
+.bigOutline {
+  top: 33.06rem;
+  left: 1.5rem;
+}
+.bigOutline1 {
+  top: 0;
+  left: 0;
+}
+.usUnitedStatesOfAmericaUs {
+  position: absolute;
+  height: 50.3%;
+  width: 10.47%;
+  top: 34.88%;
+  right: 81.36%;
+  bottom: 14.82%;
+  left: 8.17%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.image193Icon {
+  position: absolute;
+  top: 0.44rem;
+  left: 0.81rem;
+  width: 2.81rem;
+  height: 2rem;
+  object-fit: cover;
+}
+.bigOutlineParent {
+  position: absolute;
+  top: 23.25rem;
+  left: 1.44rem;
+  width: 21.38rem;
+  height: 3.13rem;
+}
+.october1 {
+  position: relative;
+  letter-spacing: 0.58px;
+  font-weight: 600;
+  display: inline-block;
+  width: 11.61rem;
+  height: 2.38rem;
+  flex-shrink: 0;
+}
+.october {
+  position: absolute;
+  top: 0.88rem;
+  left: 7rem;
+  width: 14.56rem;
+  height: 5.81rem;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  font-size: var(--font-size-11xl);
+  color: var(--color-mediumslateblue);
+  font-family: var(--font-poppins);
+}
+.iconlyboldarrowLeft {
+  position: absolute;
+  top: 2.94rem;
+  left: 1.38rem;
+  width: 1.61rem;
+  height: 1.73rem;
+  cursor: pointer;
+}
+.addProfile {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 52.75rem;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--dark-gray-10);
+  font-family: var(--font-roboto);
+}

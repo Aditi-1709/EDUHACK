@@ -1,0 +1,205 @@
+.notify {
+  position: absolute;
+  top: 4.31rem;
+  left: 7.44rem;
+  font-weight: 600;
+}
+.group821 {
+  position: absolute;
+  top: 11.81rem;
+  left: 3.94rem;
+  width: 16.75rem;
+  height: 12.31rem;
+  object-fit: cover;
+}
+.worldsSafestAnd {
+  margin: 0;
+}
+.worldsSafestAndContainer {
+  align-self: stretch;
+  position: relative;
+  font-weight: 900;
+}
+.worldsSafestAndLargestDigWrapper {
+  position: absolute;
+  top: 0;
+  left: 0.94rem;
+  width: 19.19rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: 1.5rem;
+}
+.alreadyHaveAn {
+  position: absolute;
+  top: 18.38rem;
+  left: 4.44rem;
+  letter-spacing: 0.04em;
+  line-height: 130%;
+  font-weight: 800;
+  color: #d9614c;
+  cursor: pointer;
+}
+.thisProductiveToolContainer {
+  position: absolute;
+  top: 5.31rem;
+  left: 1.75rem;
+  font-family: var(--font-lexend-deca);
+  color: var(--color-secondery);
+}
+.frameChild,
+.frameGroup {
+  position: absolute;
+  width: 22rem;
+}
+.frameChild {
+  top: 11.88rem;
+  left: 0;
+  border-radius: 16px;
+  height: 3.71rem;
+}
+.frameGroup {
+  top: 26.44rem;
+  left: 0.56rem;
+  height: 19.69rem;
+  text-align: center;
+  font-size: var(--font-size-base);
+  color: var(--color-darkslategray-100);
+}
+.capacity,
+.notifyParent {
+  position: relative;
+  flex-shrink: 0;
+}
+.notifyParent {
+  align-self: stretch;
+  height: 46.13rem;
+}
+.capacity {
+  border-radius: 1.55px;
+  background-color: var(--label-light-primary);
+  width: 1.08rem;
+  height: 0.71rem;
+}
+.capFormgroup {
+  width: 0.08rem;
+  border: 0;
+  background-color: transparent;
+  position: relative;
+  opacity: 0.4;
+  mix-blend-mode: normal;
+}
+.battery {
+  position: absolute;
+  height: 53.97%;
+  width: 6.29%;
+  top: 27.11%;
+  right: 0.67%;
+  bottom: 18.92%;
+  left: 93.04%;
+  border-radius: 3.09px;
+  border: 1.2px solid var(--color-gray-300);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-0) 0 var(--padding-10xs) 0.12rem;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-11xs);
+  mix-blend-mode: normal;
+}
+.wifiIcon {
+  position: relative;
+  width: 1.02rem;
+  height: 1.06rem;
+}
+.cellularConnectionIcon {
+  position: relative;
+  width: 1.13rem;
+  height: 1.03rem;
+}
+.time {
+  position: relative;
+  letter-spacing: -0.28px;
+  line-height: 1.45rem;
+  display: inline-block;
+  width: 3.58rem;
+}
+.batteryParent,
+.timeStyle {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.timeStyle {
+  height: 100%;
+  width: 15.44%;
+  right: 84.56%;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  padding: 0.2rem var(--padding-0);
+  box-sizing: border-box;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+.batteryParent {
+  width: 23.19rem;
+  height: 2.02rem;
+}
+.frameItem {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  height: 12.56rem;
+  flex-shrink: 0;
+}
+.frameWrapper,
+.wrapper {
+  position: absolute;
+  top: 39.31rem;
+}
+.frameWrapper {
+  left: 6.56rem;
+  width: 14.1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.wrapper {
+  left: 2.56rem;
+}
+.frameContainer {
+  align-self: stretch;
+  position: relative;
+  height: 51.88rem;
+  flex-shrink: 0;
+  margin-top: -46.12rem;
+  text-align: center;
+  font-size: 1.09rem;
+  color: var(--label-light-primary);
+}
+.frameParent,
+.getStarted {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.frameParent {
+  align-self: stretch;
+  justify-content: flex-start;
+}
+.getStarted {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  overflow: hidden;
+  justify-content: center;
+  text-align: left;
+  font-size: 2.5rem;
+  color: var(--color-mediumslateblue);
+  font-family: var(--font-nunito);
+}

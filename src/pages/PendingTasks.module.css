@@ -1,0 +1,210 @@
+.pendingTasksChild {
+  position: absolute;
+  top: 51.08rem;
+  left: 0;
+  width: 24.38rem;
+  height: 1.67rem;
+}
+.vectorIcon {
+  position: absolute;
+  height: 0.59%;
+  width: 38.21%;
+  top: 98.46%;
+  right: 31.03%;
+  bottom: 0.95%;
+  left: 30.77%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.capacity {
+  position: relative;
+  border-radius: 1.55px;
+  background-color: var(--label-light-primary);
+  width: 1.08rem;
+  height: 0.71rem;
+  flex-shrink: 0;
+}
+.battery,
+.capIcon {
+  mix-blend-mode: normal;
+}
+.capIcon {
+  position: relative;
+  width: 0.08rem;
+  height: 0.39rem;
+  flex-shrink: 0;
+  opacity: 0.4;
+}
+.battery {
+  position: absolute;
+  height: 53.97%;
+  width: 6.29%;
+  top: 27.11%;
+  right: 0.67%;
+  bottom: 18.92%;
+  left: 93.04%;
+  border-radius: 3.09px;
+  border: 1.2px solid var(--color-gray-300);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-0) 0.26rem var(--padding-10xs) 0.12rem;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-11xs);
+}
+.wifiIcon {
+  position: relative;
+  width: 1.02rem;
+  height: 1.06rem;
+}
+.cellularConnectionIcon {
+  position: relative;
+  width: 1.13rem;
+  height: 1.03rem;
+}
+.time {
+  position: relative;
+  letter-spacing: -0.28px;
+  line-height: 1.45rem;
+  display: inline-block;
+  width: 3.58rem;
+}
+.timeStyle {
+  height: 100%;
+  width: 15.44%;
+  top: 0;
+  right: 84.56%;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  padding: 0.2rem var(--padding-0);
+  box-sizing: border-box;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+.header,
+.october1,
+.timeStyle {
+  position: absolute;
+  left: 0;
+}
+.header {
+  top: 0;
+  width: 23.19rem;
+  height: 2.02rem;
+  text-align: center;
+  font-size: 1.09rem;
+}
+.october1 {
+  width: 107.3%;
+  top: calc(50% + 8.5px);
+  letter-spacing: 0.58px;
+  font-weight: 600;
+  display: inline-block;
+  height: 2.38rem;
+}
+.october {
+  position: absolute;
+  top: 1.31rem;
+  left: 5.63rem;
+  width: 14.56rem;
+  height: 5.81rem;
+  overflow: hidden;
+  font-size: var(--font-size-11xl);
+  color: var(--color-mediumslateblue);
+  font-family: var(--font-poppins);
+}
+.frameChild {
+  position: absolute;
+  top: calc(50% - 65.5px);
+  left: calc(50% - 161px);
+  border-radius: var(--br-3xs);
+  background-color: #fd99ff;
+  width: 20.13rem;
+  height: 5.06rem;
+}
+.pendingTasksInner {
+  position: absolute;
+  top: 14.75rem;
+  left: 4.56rem;
+  width: 14.75rem;
+  height: 3.06rem;
+}
+.pendingTasksItem {
+  position: absolute;
+  top: calc(50% - 84px);
+  left: calc(50% - 172px);
+  border-radius: var(--br-3xs);
+  background-color: #ff9e9e;
+  width: 20.81rem;
+  height: 6.13rem;
+}
+.pendingTasksChild1,
+.rectangleDiv {
+  position: absolute;
+  border-radius: var(--br-3xs);
+  width: 20.06rem;
+}
+.rectangleDiv {
+  top: 30.56rem;
+  left: 1.94rem;
+  background-color: #9effff;
+  height: 5.94rem;
+}
+.pendingTasksChild1 {
+  top: calc(50% + 211px);
+  left: calc(50% - 164px);
+  background-color: #b69cff;
+  height: 4.69rem;
+}
+.task1,
+.task2,
+.task3,
+.task4 {
+  position: absolute;
+  top: 13.81rem;
+  left: 3.94rem;
+  display: inline-block;
+  width: 15.38rem;
+  height: 2.5rem;
+}
+.task2,
+.task3,
+.task4 {
+  top: 23.19rem;
+  left: 4.13rem;
+  width: 15.75rem;
+  height: 3.19rem;
+}
+.task3,
+.task4 {
+  top: 31.5rem;
+  left: 3.94rem;
+  width: 15.38rem;
+  height: 4rem;
+}
+.task4 {
+  top: 40.56rem;
+  height: 3.69rem;
+}
+.iconlyboldarrowLeft {
+  position: absolute;
+  top: 3.06rem;
+  left: 1.81rem;
+  width: 1.61rem;
+  height: 1.73rem;
+  cursor: pointer;
+}
+.pendingTasks {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 52.75rem;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-6xl);
+  color: var(--label-light-primary);
+  font-family: var(--font-nunito);
+}

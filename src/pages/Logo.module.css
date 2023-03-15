@@ -1,0 +1,144 @@
+.capacity,
+.getStarted {
+  position: relative;
+  flex-shrink: 0;
+}
+.getStarted {
+  background-color: var(--color-mediumslateblue);
+  width: 24.38rem;
+  height: 52.75rem;
+  overflow: hidden;
+}
+.capacity {
+  border-radius: 1.55px;
+  background-color: var(--label-light-primary);
+  width: 1.08rem;
+  height: 0.71rem;
+}
+.battery,
+.capIcon {
+  mix-blend-mode: normal;
+}
+.capIcon {
+  position: relative;
+  width: 0.08rem;
+  height: 0.39rem;
+  flex-shrink: 0;
+  opacity: 0.4;
+}
+.battery {
+  position: absolute;
+  height: 72.79%;
+  width: 6.48%;
+  top: 15.06%;
+  right: 0;
+  bottom: 12.15%;
+  left: 93.52%;
+  border-radius: 3.09px;
+  border: 1.2px solid var(--color-gray-300);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-0) 0 var(--padding-10xs) 0.12rem;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-11xs);
+}
+.cellularConnectionIcon {
+  position: relative;
+  width: 1.13rem;
+  height: 1.03rem;
+}
+.time {
+  position: absolute;
+  width: 15.91%;
+  top: calc(50% - 12px);
+  left: 0;
+  letter-spacing: -0.28px;
+  line-height: 1.45rem;
+  display: inline-block;
+}
+.batteryParent {
+  position: absolute;
+  top: 0.32rem;
+  left: 0.53rem;
+  width: 22.5rem;
+  height: 1.5rem;
+}
+.timeStyle,
+.wifiIcon {
+  position: relative;
+  width: 3.58rem;
+  height: 2.02rem;
+  flex-shrink: 0;
+}
+.wifiIcon {
+  width: 1.02rem;
+  height: 1.06rem;
+}
+.timeStyleParent {
+  width: 23.19rem;
+  height: 2.02rem;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 16.63rem;
+}
+.notify {
+  position: relative;
+  font-size: 6rem;
+  font-family: var(--font-pompiere);
+  color: var(--color-white);
+  text-align: left;
+  cursor: pointer;
+}
+.frameGroup {
+  width: 23.19rem;
+  height: 27.52rem;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 18.25rem;
+}
+.vectorIcon {
+  position: relative;
+  width: 9.31rem;
+  height: 0.31rem;
+  flex-shrink: 0;
+}
+.frameParent {
+  width: 23.19rem;
+  height: 52.25rem;
+  flex-shrink: 0;
+  justify-content: flex-start;
+  gap: 24.38rem;
+  margin-top: -52.75rem;
+}
+.frameParent,
+.getStartedParent,
+.logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.getStartedParent {
+  width: 24.38rem;
+  height: 52.75rem;
+  flex-shrink: 0;
+  justify-content: flex-end;
+}
+.logo {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  overflow: hidden;
+  justify-content: center;
+  text-align: center;
+  font-size: 1.09rem;
+  color: var(--label-light-primary);
+  font-family: var(--font-nunito);
+}

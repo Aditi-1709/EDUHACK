@@ -1,0 +1,290 @@
+.vuesaxboldnotificationIcon {
+  position: absolute;
+  top: 1.38rem;
+  left: 20.88rem;
+  width: 1.63rem;
+  height: 1.69rem;
+}
+.addTaskChild,
+.addTaskChild1,
+.addTaskInner,
+.addTaskItem,
+.rectangleDiv {
+  position: absolute;
+  top: 10.38rem;
+  left: 0.81rem;
+  border-radius: 17.36px;
+  background-color: var(--color-white);
+  box-shadow: 0 4.62933349609375px 37.03px rgba(0, 0, 0, 0.04);
+  width: 22.81rem;
+  height: 4.5rem;
+}
+.addTaskChild1,
+.addTaskInner,
+.addTaskItem,
+.rectangleDiv {
+  top: 27.56rem;
+  left: 1.06rem;
+}
+.addTaskChild1,
+.addTaskInner,
+.rectangleDiv {
+  top: 33.63rem;
+}
+.addTaskChild1,
+.rectangleDiv {
+  top: 39.5rem;
+  height: 4.44rem;
+}
+.addTaskChild1 {
+  top: 16.06rem;
+  height: 10.13rem;
+}
+.description,
+.endDate,
+.projectName,
+.startDate {
+  position: absolute;
+  top: 11.06rem;
+  left: 1.94rem;
+  display: inline-block;
+  width: 7.13rem;
+  height: 0.81rem;
+}
+.description,
+.endDate,
+.startDate {
+  top: 28.69rem;
+  left: 3.94rem;
+  width: 4.44rem;
+  height: 1.94rem;
+}
+.description,
+.endDate {
+  top: 35.19rem;
+  left: 4rem;
+  width: 4.69rem;
+  height: 0.81rem;
+}
+.description {
+  top: 17.5rem;
+  left: 1.75rem;
+  width: 4.44rem;
+  height: 1.94rem;
+}
+.iconlyboldarrowDown4,
+.iconlyboldarrowDown5 {
+  position: absolute;
+  top: 29.25rem;
+  left: 20.5rem;
+  width: 1.63rem;
+  height: 1.69rem;
+}
+.iconlyboldarrowDown4 {
+  top: 35.38rem;
+  height: 1.75rem;
+}
+.ellipseIcon {
+  position: absolute;
+  top: 51.08rem;
+  left: 0;
+  width: 24.38rem;
+  height: 1.67rem;
+}
+.addTask1,
+.rectangleIcon {
+  cursor: pointer;
+  position: absolute;
+}
+.rectangleIcon {
+  top: 46.06rem;
+  left: 1.06rem;
+  border-radius: 16.2px;
+  width: 22.81rem;
+  height: 3.69rem;
+}
+.addTask1 {
+  text-decoration: none;
+  top: 47.06rem;
+  left: 8.69rem;
+  font-size: 1.37rem;
+  font-weight: 600;
+  color: var(--color-white);
+  text-align: center;
+  display: inline-block;
+  width: 8.56rem;
+  height: 1.69rem;
+}
+.groceryShoppingApp,
+.june2022,
+.may2022 {
+  position: absolute;
+  top: 12rem;
+  left: 1.75rem;
+  font-size: var(--font-size-base-2);
+  color: var(--color-black);
+  display: inline-block;
+  width: 13.44rem;
+  height: 1.25rem;
+}
+.june2022,
+.may2022 {
+  top: 29.94rem;
+  left: 4rem;
+  width: 7.94rem;
+}
+.june2022 {
+  top: 36.13rem;
+}
+.thisApplicationIs {
+  margin: 0;
+}
+.thisApplicationIsContainer {
+  position: absolute;
+  top: 18.69rem;
+  left: 1.94rem;
+  font-size: 0.8rem;
+  color: var(--color-black);
+  display: inline-block;
+  width: 20.38rem;
+  height: 4.38rem;
+}
+.addTaskChild2,
+.vuesaxbulkcalendarIcon,
+.vuesaxbulkcalendarIcon1 {
+  position: absolute;
+  top: 29.25rem;
+  left: 1.56rem;
+  width: 1.63rem;
+  height: 1.69rem;
+}
+.addTaskChild2,
+.vuesaxbulkcalendarIcon1 {
+  top: 35.38rem;
+  height: 1.75rem;
+}
+.addTaskChild2 {
+  top: 4.69rem;
+  left: 0.44rem;
+  border-radius: 17.36px;
+  background-color: var(--color-white);
+  box-shadow: 0 4.62933349609375px 37.03px rgba(0, 0, 0, 0.04);
+  width: 22.81rem;
+  height: 4.5rem;
+}
+.groupIcon {
+  position: absolute;
+  top: 5.69rem;
+  left: 1.56rem;
+  width: 1.65rem;
+  height: 1.71rem;
+}
+.taskGroup,
+.work {
+  position: absolute;
+  display: inline-block;
+}
+.taskGroup {
+  top: 0;
+  left: 0;
+  width: 6.19rem;
+  height: 1.89rem;
+}
+.work {
+  top: 0.81rem;
+  left: 0.13rem;
+  font-size: var(--font-size-base-2);
+  font-weight: 600;
+  color: var(--color-black);
+  width: 4.67rem;
+  height: 2.91rem;
+}
+.taskGroupParent {
+  position: absolute;
+  top: 5.5rem;
+  left: 3.94rem;
+  width: 6.19rem;
+  height: 3.72rem;
+}
+.addTaskChild3,
+.iconlyboldarrowDown3 {
+  position: absolute;
+  top: 5.81rem;
+  left: 20.5rem;
+  width: 1.63rem;
+  height: 1.69rem;
+}
+.addTaskChild3 {
+  top: 40.38rem;
+  left: 1.56rem;
+  width: 3rem;
+  height: 3.13rem;
+  object-fit: cover;
+}
+.addTaskChild4 {
+  position: absolute;
+  top: 40.88rem;
+  left: 15.19rem;
+  border-radius: 8.1px;
+  background-color: #ede8ff;
+  width: 7.13rem;
+  height: 2.19rem;
+}
+.changeLogo {
+  position: absolute;
+  top: 41.44rem;
+  left: 16.25rem;
+  font-size: 0.8rem;
+  color: #5f33e1;
+  display: inline-block;
+  width: 6.06rem;
+  height: 1rem;
+}
+.shop {
+  margin: 0;
+  color: #f2582c;
+}
+.groceryShop {
+  position: absolute;
+  top: 40.75rem;
+  left: 5.31rem;
+  font-size: var(--font-size-base-2);
+  line-height: 1.23rem;
+  display: inline-block;
+  font-weight: 600;
+  font-family: var(--font-poppins);
+  width: 6.81rem;
+  height: 2.44rem;
+  color: #047c78;
+}
+.vectorIcon {
+  position: absolute;
+  height: 0.59%;
+  width: 38.21%;
+  top: 98.46%;
+  right: 31.03%;
+  bottom: 0.95%;
+  left: 30.77%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.iconlyboldarrowLeft {
+  position: absolute;
+  top: 1.38rem;
+  left: 2.13rem;
+  width: 1.61rem;
+  height: 1.73rem;
+  cursor: pointer;
+}
+.addTask {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 52.75rem;
+  overflow: hidden;
+  text-align: left;
+  font-size: 0.65rem;
+  color: var(--color-secondery);
+  font-family: var(--font-lexend-deca);
+}

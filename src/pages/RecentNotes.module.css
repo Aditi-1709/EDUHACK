@@ -1,0 +1,563 @@
+.capacity {
+  position: relative;
+  border-radius: 1.55px;
+  background-color: var(--label-light-primary);
+  width: 1.08rem;
+  height: 0.71rem;
+  flex-shrink: 0;
+}
+.battery,
+.capIcon {
+  mix-blend-mode: normal;
+}
+.capIcon {
+  position: relative;
+  width: 0.08rem;
+  height: 0.39rem;
+  flex-shrink: 0;
+  opacity: 0.4;
+}
+.battery {
+  position: absolute;
+  height: 53.97%;
+  width: 6.29%;
+  top: 27.11%;
+  right: 0.67%;
+  bottom: 18.92%;
+  left: 93.04%;
+  border-radius: 3.09px;
+  border: 1.2px solid var(--color-gray-300);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-0) 0.26rem var(--padding-10xs) 0.12rem;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-11xs);
+}
+.wifiIcon {
+  position: relative;
+  width: 1.02rem;
+  height: 1.06rem;
+}
+.cellularConnectionIcon {
+  position: relative;
+  width: 1.13rem;
+  height: 1.03rem;
+}
+.time {
+  position: relative;
+  letter-spacing: -0.28px;
+  line-height: 1.45rem;
+  display: inline-block;
+  width: 3.58rem;
+}
+.header,
+.timeStyle {
+  position: absolute;
+  top: 0;
+}
+.timeStyle {
+  height: 100%;
+  width: 15.44%;
+  right: 84.56%;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  padding: 0.2rem var(--padding-0);
+  box-sizing: border-box;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+.header {
+  left: 0.38rem;
+  width: 23.19rem;
+  height: 2.02rem;
+}
+.monday,
+.october1 {
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.monday {
+  letter-spacing: 0.23px;
+  width: 4.65rem;
+  height: 1.38rem;
+  opacity: 0.5;
+  mix-blend-mode: normal;
+}
+.october1 {
+  font-size: 1.73rem;
+  letter-spacing: 0.58px;
+  color: #040415;
+  width: 7.36rem;
+  height: 2.38rem;
+}
+.october {
+  position: absolute;
+  top: 0;
+  left: 2.56rem;
+  width: 11.69rem;
+  height: 3.44rem;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.buttonsCircleNavigation {
+  position: absolute;
+  top: 0.63rem;
+  left: 18rem;
+  width: 1.88rem;
+  height: 2.19rem;
+}
+.profileNotifications {
+  position: absolute;
+  top: 0.65rem;
+  left: 21.1rem;
+  width: 1.92rem;
+  height: 2.16rem;
+  cursor: pointer;
+}
+.hiShambhavi {
+  position: absolute;
+  top: 0;
+  left: 0;
+  letter-spacing: -0.58px;
+  line-height: 3.24rem;
+  display: inline-block;
+  width: 17.56rem;
+  height: 2.63rem;
+}
+.tasksArePendingContainer {
+  position: absolute;
+  top: 2.63rem;
+  left: 2.22rem;
+  font-size: 1.01rem;
+  line-height: 1.01rem;
+  color: #8d8d8d;
+  text-align: left;
+  display: inline-block;
+  width: 14.72rem;
+  height: 0.87rem;
+}
+.hiShambhaviParent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 17.56rem;
+  height: 3.5rem;
+}
+.now {
+  position: absolute;
+  height: 11.2%;
+  width: 6.33%;
+  top: 35.48%;
+  left: 87.37%;
+  line-height: 0.72rem;
+  display: inline-block;
+}
+.mobileAppDesign,
+.now1,
+.raduAnca {
+  position: absolute;
+  height: 15.87%;
+  line-height: 1.01rem;
+  display: inline-block;
+}
+.mobileAppDesign {
+  width: 53.54%;
+  top: 14.92%;
+  left: 2.6%;
+  font-size: 1.15rem;
+  text-align: left;
+}
+.now1,
+.raduAnca {
+  width: 25.63%;
+  top: 35.76%;
+  left: 2.03%;
+}
+.now1 {
+  width: 6.33%;
+  top: 66.67%;
+  left: 87.37%;
+}
+.component5Child {
+  height: 25.81%;
+  width: 7%;
+  top: 61.29%;
+  right: 88.63%;
+  bottom: 12.9%;
+  left: 4.37%;
+  object-fit: cover;
+}
+.component5Child,
+.component5Item,
+.vectorIcon {
+  position: absolute;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.component5Item {
+  height: 25.81%;
+  width: 7%;
+  top: 61.29%;
+  right: 83.67%;
+  bottom: 12.9%;
+  left: 9.33%;
+  object-fit: cover;
+}
+.vectorIcon {
+  height: 22.14%;
+  width: 4.8%;
+  top: 65.6%;
+  right: 8.49%;
+  bottom: 12.26%;
+  left: 86.7%;
+}
+.component5 {
+  position: absolute;
+  height: 53.99%;
+  width: 93.11%;
+  top: 46.01%;
+  right: 0;
+  bottom: 0;
+  left: 6.89%;
+  border-radius: 17.28px;
+  background: linear-gradient(135.96deg, #8b78ff, #5451d6);
+  font-size: 0.72rem;
+  color: var(--color-white);
+}
+.frameGroup {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 23.57rem;
+  height: 11.41rem;
+  text-align: center;
+  font-size: 2.02rem;
+  color: #2f394b;
+}
+.frameChild {
+  position: absolute;
+  top: 35.69rem;
+  left: 1.63rem;
+  border-radius: 27.65px 27.65px 35.71px 35.71px;
+  background-color: var(--color-white);
+  box-shadow: 0 0 46.08px rgba(0, 0, 0, 0.03);
+  width: 22rem;
+  height: 5.63rem;
+}
+.iconlylighthome,
+.vectorIcon1,
+.vectorIcon2 {
+  position: absolute;
+  height: 3.33%;
+  width: 4.37%;
+  top: 91.07%;
+  right: 32.45%;
+  bottom: 5.6%;
+  left: 63.17%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.iconlylighthome,
+.vectorIcon2 {
+  height: 3.37%;
+  width: 5.26%;
+  top: 91.09%;
+  right: 48.94%;
+  bottom: 5.54%;
+  left: 45.8%;
+}
+.iconlylighthome {
+  height: 3.63%;
+  width: 5.35%;
+  top: 90.92%;
+  right: 80.32%;
+  bottom: 5.45%;
+  left: 14.34%;
+}
+.calendarIcon,
+.profileIcon {
+  position: absolute;
+  top: 37.56rem;
+  left: 7.5rem;
+  width: 1.38rem;
+  height: 1.5rem;
+  overflow: hidden;
+}
+.profileIcon {
+  top: 37.63rem;
+  left: 19.44rem;
+}
+.frameItem {
+  position: absolute;
+  top: 25.71rem;
+  left: 12.31rem;
+  border-radius: 17.28px;
+  background: linear-gradient(135.96deg, #ffa0bc, #ff1b5e);
+  box-shadow: 0 4.607999324798584px 28.8px rgba(141, 141, 141, 0.1);
+  width: 10.38rem;
+  height: 8.13rem;
+}
+.vectorIcon3 {
+  position: absolute;
+  height: 14.98%;
+  width: 17.12%;
+  top: 8.44%;
+  right: 0;
+  bottom: 76.58%;
+  left: 82.88%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  cursor: pointer;
+}
+.tasks {
+  position: absolute;
+  height: 19.15%;
+  width: 36.99%;
+  top: 80.85%;
+  left: 6.16%;
+  display: inline-block;
+}
+.objectother12Icon {
+  position: absolute;
+  height: 54.94%;
+  width: 64.38%;
+  top: 0;
+  right: 35.62%;
+  bottom: 45.06%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  cursor: pointer;
+}
+.pending {
+  position: absolute;
+  top: 4.04rem;
+  left: 0.5rem;
+  font-size: 1.15rem;
+  display: inline-block;
+  color: var(--color-white);
+  width: 5.88rem;
+  height: 1.1rem;
+}
+.myTasks,
+.vectorParent {
+  position: absolute;
+  top: 26.5rem;
+  left: 13.56rem;
+  width: 9.13rem;
+  height: 7.34rem;
+  font-size: 0.72rem;
+}
+.myTasks {
+  top: 13.25rem;
+  left: 1.5rem;
+  font-size: 1.73rem;
+  line-height: 3.24rem;
+  display: inline-block;
+  width: 7.38rem;
+  height: 3.18rem;
+}
+.component2Child {
+  position: absolute;
+  height: 77.08%;
+  width: 92.74%;
+  top: 22.98%;
+  right: 22.41%;
+  bottom: -0.06%;
+  left: -15.15%;
+  border-radius: 17.28px;
+  background: linear-gradient(135.96deg, #ffd29d, #ff9e2d);
+  box-shadow: 0 4.607999324798584px 28.8px rgba(141, 141, 141, 0.1);
+}
+.vectorIcon4 {
+  position: absolute;
+  height: 16.46%;
+  width: 12.94%;
+  top: 38.7%;
+  right: 29.96%;
+  bottom: 44.84%;
+  left: 57.1%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  cursor: pointer;
+}
+.addTask,
+.task {
+  position: absolute;
+  height: 18.71%;
+  width: 77.64%;
+  top: 66.7%;
+  left: -0.05%;
+  display: inline-block;
+}
+.task {
+  height: 10.48%;
+  width: 29.11%;
+  top: 85.84%;
+  left: 0.49%;
+  font-size: 0.72rem;
+  color: var(--label-light-primary);
+}
+.component2,
+.objectother05Icon {
+  position: absolute;
+  cursor: pointer;
+}
+.objectother05Icon {
+  height: 67.35%;
+  width: 51.76%;
+  top: 13.26%;
+  right: 56.92%;
+  bottom: 19.4%;
+  left: -8.68%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.component2 {
+  top: 16.36rem;
+  left: 14.13rem;
+  width: 11.59rem;
+  height: 8.17rem;
+  color: var(--color-white);
+}
+.component3Child {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 5.45%;
+  right: 0;
+  bottom: -5.45%;
+  left: 0;
+  border-radius: 17.28px;
+  background: linear-gradient(135.96deg, #a9ffea, #00b288);
+  box-shadow: 0 4.607999324798584px 28.8px rgba(141, 141, 141, 0.1);
+}
+.vectorIcon5 {
+  position: absolute;
+  height: 14.22%;
+  width: 13.5%;
+  top: 15.33%;
+  right: 9.95%;
+  bottom: 70.45%;
+  left: 76.54%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.mobileApp {
+  margin: 0;
+}
+.mobileAppDesignContainer,
+.tasks1 {
+  position: absolute;
+  height: 35.5%;
+  width: 74.4%;
+  top: 56.62%;
+  left: 10.71%;
+  display: inline-block;
+}
+.tasks1 {
+  height: 20.12%;
+  width: 37.5%;
+  top: 85.21%;
+  left: 8.93%;
+  font-size: 0.72rem;
+  color: var(--label-light-primary);
+}
+.component3 {
+  position: absolute;
+  height: 24.96%;
+  width: 39.85%;
+  top: 42.21%;
+  right: 56.26%;
+  bottom: 32.83%;
+  left: 3.89%;
+  color: var(--color-white);
+}
+.objectother17Icon {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.objectother17 {
+  position: absolute;
+  height: 13.63%;
+  width: 22.39%;
+  top: 42.14%;
+  right: 69.7%;
+  bottom: 44.22%;
+  left: 7.91%;
+}
+.frameParent {
+  top: 5.5rem;
+  left: 0;
+  height: 41.31rem;
+  font-size: 1.15rem;
+  color: var(--label-light-primary);
+}
+.frameParent,
+.headerParent,
+.octoberParent {
+  position: absolute;
+  width: 25.72rem;
+}
+.octoberParent {
+  top: 3.19rem;
+  left: 0;
+  height: 46.81rem;
+  text-align: left;
+  font-size: 1.01rem;
+  color: #7f7f7f;
+}
+.headerParent {
+  top: 0;
+  left: -0.37rem;
+  height: 50rem;
+}
+.vectorIcon6 {
+  position: absolute;
+  height: 0.59%;
+  width: 38.21%;
+  top: 98.46%;
+  right: 31.03%;
+  bottom: 0.95%;
+  left: 30.77%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.recentNotes {
+  position: relative;
+  background-color: var(--color-gray-100);
+  width: 100%;
+  height: 52.75rem;
+  overflow: hidden;
+  text-align: center;
+  font-size: 1.09rem;
+  color: var(--label-light-primary);
+  font-family: var(--font-nunito);
+}
