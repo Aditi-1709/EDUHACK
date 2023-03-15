@@ -7,7 +7,7 @@ const AddProfile = () => {
   const navigate = useNavigate();
 
   const onIconlyBoldArrowLeftClick = useCallback(() => {
-    navigate("/get-started");
+    navigate("/edit-profile");
   }, [navigate]);
 
   return (

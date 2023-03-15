@@ -11,7 +11,7 @@ const EditProfile = () => {
   }, [navigate]);
 
   const onIconlyBoldArrowLeftClick = useCallback(() => {
-    navigate("/user-profile");
+    navigate("/recent-notes");
   }, [navigate]);
 
   return (

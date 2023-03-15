@@ -17,7 +17,7 @@ const GetStarted = () => {
     <div className={styles.getStarted}>
       <div className={styles.frameParent}>
         <div className={styles.notifyParent}>
-          <div className={styles.notify}>NOTIFY</div>
+          <div className={styles.notify}>AIMETRIC</div>
           <img className={styles.group821} alt="" src="/group-82-1@2x.png" />
           <div className={styles.frameGroup}>
             <div className={styles.worldsSafestAndLargestDigWrapper}>

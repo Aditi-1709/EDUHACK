@@ -135,7 +135,7 @@
 .pendingTasksItem {
   position: absolute;
   top: calc(50% - 84px);
-  left: calc(50% - 172px);
+  left: 1.94rem;
   border-radius: var(--br-3xs);
   background-color: #ff9e9e;
   width: 20.81rem;
@@ -155,7 +155,7 @@
 }
 .pendingTasksChild1 {
   top: calc(50% + 211px);
-  left: calc(50% - 164px);
+  left: 1.94rem;
   background-color: #b69cff;
   height: 4.69rem;
 }

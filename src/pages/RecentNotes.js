@@ -6,7 +6,7 @@ const RecentNotes = () => {
   const navigate = useNavigate();
 
   const onProfileNotificationsClick = useCallback(() => {
-    navigate("/user-profile");
+    navigate("/edit-profile");
   }, [navigate]);
 
   const onVectorIcon3Click = useCallback(() => {
@@ -76,7 +76,6 @@ const RecentNotes = () => {
                 <div className={styles.now}>Now</div>
                 <div className={styles.mobileAppDesign}>Mobile App Design</div>
                 <div className={styles.raduAnca}>{`Radu & Anca`}</div>
-                <div className={styles.now1}>Now</div>
                 <img
                   className={styles.component5Child}
                   alt=""
