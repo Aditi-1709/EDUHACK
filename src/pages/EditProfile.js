@@ -6,7 +6,7 @@ import styles from "./EditProfile.module.css";
 const EditProfile = () => {
   const navigate = useNavigate();
 
-  const onBUTTONTextClick = useCallback(() => {
+  const onBUTTONClick = useCallback(() => {
     navigate("/user-profile");
   }, [navigate]);
 
@@ -42,7 +42,7 @@ const EditProfile = () => {
         iconIdsString2="16x16x294728777"
         newIconId="submit"
         propCursor="pointer"
-        onBUTTONTextClick={onBUTTONTextClick}
+        onBUTTONTextClick={onBUTTONClick}
       />
       <div className={styles.bigOutline}>
         <div className={styles.value}>

@@ -5,9 +5,9 @@ import {
   useLocation,
 } from "react-router-dom";
 import Logo from "./pages/Logo";
+import EditProfile from "./pages/EditProfile";
 import AddProfile from "./pages/AddProfile";
 import PendingTasks from "./pages/PendingTasks";
-import EditProfile from "./pages/EditProfile";
 import RecentNotes from "./pages/RecentNotes";
 import AddTask from "./pages/AddTask";
 import FrameComponent from "./pages/FrameComponent";
@@ -34,15 +34,15 @@ function App() {
         title = "";
         metaDescription = "";
         break;
+      case "/edit-profile":
+        title = "";
+        metaDescription = "";
+        break;
       case "/add-profile":
         title = "";
         metaDescription = "";
         break;
       case "/pending-tasks":
-        title = "";
-        metaDescription = "";
-        break;
-      case "/edit-profile":
         title = "";
         metaDescription = "";
         break;
@@ -81,9 +81,9 @@ function App() {
   return (
     <Routes>
       <Route path="/" element={<Logo />} />
+      <Route path="/edit-profile" element={<EditProfile />} />
       <Route path="/add-profile" element={<AddProfile />} />
       <Route path="/pending-tasks" element={<PendingTasks />} />
-      <Route path="/edit-profile" element={<EditProfile />} />
       <Route path="/recent-notes" element={<RecentNotes />} />
       <Route path="/add-task" element={<AddTask />} />
       <Route path="/frame-1444" element={<FrameComponent />} />
