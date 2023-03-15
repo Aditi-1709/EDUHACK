@@ -82,13 +82,16 @@
   width: 1.08rem;
   height: 0.71rem;
 }
-.capFormgroup {
-  width: 0.08rem;
-  border: 0;
-  background-color: transparent;
-  position: relative;
-  opacity: 0.4;
+.battery,
+.capIcon {
   mix-blend-mode: normal;
+}
+.capIcon {
+  position: relative;
+  width: 0.08rem;
+  height: 0.39rem;
+  flex-shrink: 0;
+  opacity: 0.4;
 }
 .battery {
   position: absolute;
@@ -107,7 +110,6 @@
   align-items: center;
   justify-content: flex-start;
   gap: var(--gap-11xs);
-  mix-blend-mode: normal;
 }
 .wifiIcon {
   position: relative;
@@ -148,20 +150,36 @@
   width: 23.19rem;
   height: 2.02rem;
 }
-.frameItem {
-  align-self: stretch;
-  position: relative;
+.vectorIcon {
+  position: absolute;
+  height: 2.49%;
+  width: 66.07%;
+  top: 97.51%;
+  right: 31.71%;
+  bottom: 0;
+  left: 2.22%;
   max-width: 100%;
   overflow: hidden;
-  height: 12.56rem;
+  max-height: 100%;
+}
+.vectorWrapper {
+  cursor: pointer;
+  text-decoration: none;
+  position: absolute;
+  top: 3.94rem;
+  left: -0.37rem;
+  width: 14.13rem;
+  height: 8.63rem;
+}
+.frameDiv {
+  align-self: stretch;
+  position: relative;
+  height: 1.81rem;
   flex-shrink: 0;
 }
-.frameWrapper,
-.wrapper {
+.frameWrapper {
   position: absolute;
   top: 39.31rem;
-}
-.frameWrapper {
   left: 6.56rem;
   width: 14.1rem;
   display: flex;
@@ -169,8 +187,35 @@
   align-items: center;
   justify-content: flex-start;
 }
-.wrapper {
+.letsStart {
+  flex: 1;
+  position: relative;
+  font-weight: 600;
+}
+.iconlyboldarrowLeft {
+  position: relative;
+  width: 2.75rem;
+  height: 1.69rem;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+.letsStartParent {
+  cursor: pointer;
+  text-decoration: none;
+  position: absolute;
+  top: 39.31rem;
   left: 2.56rem;
+  width: 17.31rem;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-0) var(--padding-0) 0.13rem;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 2.56rem;
+  font-size: 1.36rem;
+  color: var(--color-white);
+  font-family: var(--font-lexend-deca);
 }
 .frameContainer {
   align-self: stretch;

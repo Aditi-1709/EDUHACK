@@ -91,20 +91,17 @@
   width: 24.38rem;
   height: 1.67rem;
 }
-.addTask1,
 .rectangleIcon {
-  cursor: pointer;
   position: absolute;
-}
-.rectangleIcon {
   top: 46.06rem;
   left: 1.06rem;
   border-radius: 16.2px;
   width: 22.81rem;
   height: 3.69rem;
+  cursor: pointer;
 }
 .addTask1 {
-  text-decoration: none;
+  position: absolute;
   top: 47.06rem;
   left: 8.69rem;
   font-size: 1.37rem;

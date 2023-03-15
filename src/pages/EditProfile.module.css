@@ -218,16 +218,13 @@
   height: 2.38rem;
   flex-shrink: 0;
 }
-.iconlyboldarrowLeft1,
 .october {
   position: absolute;
-  overflow: hidden;
-}
-.october {
   top: 1rem;
   left: 7rem;
   width: 14.56rem;
   height: 5.81rem;
+  overflow: hidden;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -236,26 +233,13 @@
   color: var(--color-mediumslateblue);
   font-family: var(--font-poppins);
 }
-.iconlyboldarrowLeft1 {
-  height: 101.01%;
-  width: 101.17%;
-  top: 0;
-  right: 0.01%;
-  bottom: -1.01%;
-  left: -1.18%;
-  max-width: 100%;
-  max-height: 100%;
-}
 .iconlyboldarrowLeft {
-  cursor: pointer;
-  text-decoration: none;
   position: absolute;
   top: 3.06rem;
-  left: 1.39rem;
-  width: 1.6rem;
-  height: 1.71rem;
-  transform: rotate(0.63deg);
-  transform-origin: 0 0;
+  left: 1.38rem;
+  width: 1.61rem;
+  height: 1.73rem;
+  cursor: pointer;
 }
 .editProfile {
   position: relative;

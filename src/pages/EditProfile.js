@@ -1,5 +1,5 @@
 import { useCallback } from "react";
-import { Link, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import ContainerForm from "../components/ContainerForm";
 import styles from "./EditProfile.module.css";
 
@@ -77,17 +77,12 @@ const EditProfile = () => {
       <div className={styles.october}>
         <div className={styles.october1}>Edit Profile</div>
       </div>
-      <Link
+      <img
         className={styles.iconlyboldarrowLeft}
-        to="/frame-1444"
+        alt=""
+        src="/iconlyboldarrow--left2.svg"
         onClick={onIconlyBoldArrowLeftClick}
-      >
-        <img
-          className={styles.iconlyboldarrowLeft1}
-          alt=""
-          src="/iconlyboldarrow--left2.svg"
-        />
-      </Link>
+      />
     </div>
   );
 };

@@ -1,5 +1,5 @@
 import { useCallback } from "react";
-import { Link, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import styles from "./AddTask.module.css";
 
 const AddTask = () => {
@@ -46,9 +46,7 @@ const AddTask = () => {
         src="/rectangle-11.svg"
         onClick={onRectangle5Click}
       />
-      <Link className={styles.addTask1} to="/recent-notes">
-        Add Task
-      </Link>
+      <div className={styles.addTask1}>Add Task</div>
       <div className={styles.groceryShoppingApp}>Grocery Shopping App</div>
       <div className={styles.may2022}>01 May, 2022</div>
       <div className={styles.june2022}>30 June, 2022</div>

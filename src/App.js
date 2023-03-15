@@ -5,13 +5,13 @@ import {
   useLocation,
 } from "react-router-dom";
 import Logo from "./pages/Logo";
-import GetStarted from "./pages/GetStarted";
 import AddProfile from "./pages/AddProfile";
 import PendingTasks from "./pages/PendingTasks";
 import EditProfile from "./pages/EditProfile";
 import RecentNotes from "./pages/RecentNotes";
 import AddTask from "./pages/AddTask";
 import FrameComponent from "./pages/FrameComponent";
+import GetStarted from "./pages/GetStarted";
 import { useEffect } from "react";
 
 function App() {
@@ -31,10 +31,6 @@ function App() {
 
     switch (pathname) {
       case "/":
-        title = "";
-        metaDescription = "";
-        break;
-      case "/get-started":
         title = "";
         metaDescription = "";
         break;
@@ -62,6 +58,10 @@ function App() {
         title = "";
         metaDescription = "";
         break;
+      case "/get-started":
+        title = "";
+        metaDescription = "";
+        break;
     }
 
     if (title) {
@@ -81,13 +81,13 @@ function App() {
   return (
     <Routes>
       <Route path="/" element={<Logo />} />
-      <Route path="/get-started" element={<GetStarted />} />
       <Route path="/add-profile" element={<AddProfile />} />
       <Route path="/pending-tasks" element={<PendingTasks />} />
       <Route path="/edit-profile" element={<EditProfile />} />
       <Route path="/recent-notes" element={<RecentNotes />} />
       <Route path="/add-task" element={<AddTask />} />
       <Route path="/frame-1444" element={<FrameComponent />} />
+      <Route path="/get-started" element={<GetStarted />} />
     </Routes>
   );
 }
