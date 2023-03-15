@@ -33,7 +33,7 @@ const Logo = () => {
               <img className={styles.wifiIcon} alt="" src="/wifi.svg" />
             </div>
             <div className={styles.notify} onClick={onNOTIFYTextClick}>
-              NOTIFY
+             AIMETRIC
             </div>
           </div>
           <img className={styles.vectorIcon} alt="" src="/vector.svg" />
