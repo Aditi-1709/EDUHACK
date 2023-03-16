@@ -7,7 +7,6 @@ const UserContainer = memo(() => {
       <img className={styles.userChild} alt="" src="/ellipse-1.svg" />
       <div className={styles.shambhaviMishraParent}>
         <div className={styles.shambhaviMishra}>Shambhavi Mishra</div>
-        <b className={styles.lucknowIndia}>Lucknow, India</b>
         <img className={styles.maskGroup1} alt="" src="/mask-group-1@2x.png" />
       </div>
     </div>
